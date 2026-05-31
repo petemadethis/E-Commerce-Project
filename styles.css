@@ -33,8 +33,7 @@ img {
 }
 
 .logo {
-    height: 60px;
-   
+    width: 160px;
 }
 
 ul {
@@ -128,4 +127,21 @@ button:active {
     max-width: 720px;
     margin: 0 auto;
     padding: 20px
+}
+
+.container {
+    padding: 56px 0;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+/* HIGHLIGHTS */
+
+.highlight_wrapper {
+    display: flex
 }
