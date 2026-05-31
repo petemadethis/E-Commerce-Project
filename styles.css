@@ -16,6 +16,7 @@ nav {
 
 img {
     width: 100%;
+    height: auto;
 }
 .nav_container {
     width: 100%;
@@ -72,6 +73,7 @@ li {
 
 header {
     height: calc(100vh - 80px);
+    position: relative;
 }
 
 .header_container {
@@ -107,8 +109,7 @@ button {
     cursor: pointer;
 }
 
-button:after { 
-    content: "";
+button:active { 
     transform: translateY(1px);
 }
 
@@ -119,8 +120,12 @@ button:after {
     font-size: 20px;
     border-radius: 4px;
     border: none;
+    transition: transform 120ms ease;
 }
 
 .header_image--wrapper {
-    width: 80px;
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 20px
 }
