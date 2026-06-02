@@ -167,7 +167,7 @@ button:active {
     z-index: 1;
     background-size: cover;
     background-repeat: no-repeat;
-    transform: translateY(-50%);
+    transform: translateY(-90%);
 }
 
 #highlights:after {
@@ -181,7 +181,7 @@ button:active {
     z-index: 1;
     background-size: cover;
     background-repeat: no-repeat;
-    transform: translateY(50%) rotate(180deg);
+    transform: translateY(100%) rotate(180deg);
 }
 
 .highlight_wrapper {
@@ -223,7 +223,7 @@ button:active {
 /* Features*/
 
 #features {
-    height: 1000%;
+    padding-top: 8vw;
     background-color: rgba(115, 66, 214, 0.1)
 }
 
